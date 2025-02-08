@@ -26,11 +26,11 @@ const Header = ({ loginCSS, signupCSS, navColor, light }) => {
           {/* Header Navigation */}
           {/* Header User Event */}
           <div className='flex items-center gap-6'>
-            {/* <Link to='/login' className={loginCSS}>
-              Login
-            </Link> */}
-            <Link to='/' className={signupCSS}>
-              Try Now 
+            <Link to='https://site-inspection.streamlit.app/' className={signupCSS}>
+              Site Inspection
+            </Link>
+            <Link to='https://contract-assessment.streamlit.app/' className={signupCSS}>
+              Contract Assessment
             </Link>
             {/* Responsive Off-canvas Menu Button */}
             <div className='block lg:hidden'>
